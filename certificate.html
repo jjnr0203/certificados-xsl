@@ -1,0 +1,157 @@
+<!-- cotizacion_mawdy.xsl -->
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="html" version="4.0"/>
+  <xsl:decimal-format name="decimal" decimal-separator="." zero-digit="0"/>
+
+  <xsl:template match="/">
+    <html>
+      <head>
+        <link rel="stylesheet" type="text/css" href="../App_Themes/plantillas.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      </head>
+      <body>
+
+        <!-- CABECERA  -->
+        <div align="center">
+          <table border="0" cellspacing="0" cellpadding="2" width="100%">
+            <tr align="center">
+              <td width="37%" style="text-align:left;">
+                <img src="./images/logoSociedades/Logo_46_7_16.png" width="230" height="70"/>
+              </td>
+              <td width="63%" colspan="2">
+                <xsl:if test="root/contrato/imagenCliente!=''">
+                  <img>
+                    <xsl:attribute name="src"><xsl:value-of select="root/contrato/imagenCliente"/></xsl:attribute>
+                  </img>
+                </xsl:if>
+              </td>
+            </tr>
+            <tr align="left" class="txtNormalPdf">
+              <td rowspan="4" style="text-align:right;"><img src="./images/AvionTraveller2.jpg" width="371" height="72"/></td>
+            </tr>
+            <tr align="left" class="txtNormalPdf">
+              <td style="font-size:7pt"><xsl:value-of select="root/contrato/nameClienteOrigen"/></td>
+            </tr>
+            <tr align="left" class="txtNormalPdf">
+              <td style="font-size:7pt"><xsl:value-of select="root/contrato/dirClienteOrigen"/>, &#160;<xsl:value-of select="root/contrato/telefonoClienteOrigen"/></td>
+            </tr>
+            <tr align="left" class="txtNormalPdf">
+              <td style="font-size:7pt"><xsl:value-of select="root/contrato/emailClienteOrigen"/>&#160;&#160;<xsl:value-of select="root/contrato/dsVendedor"/></td>
+            </tr>
+          </table>
+
+        </div>
+        
+        <div align="center">
+          <b style="text-align:center;"><font>COTIZACIÓN SERVICIO DE ASISTENCIA<br>EN VIAJES</font></b>
+        </div>
+
+        <!-- DETALLE DE COTIZACIÓN VERIFICAR CON JS -->
+        <div>
+          <b><font>DETALLE DE COTIZACIÓN</font></b>
+        </div>
+
+        <div align="center">
+        <table width="100%" style="border-top:2px solid #000000; margin-top: 0.5%;">
+          <tr>
+
+          <!-- Columna izquierda -->
+            <td style="font-size:10pt; vertical-align:top; width:50%">
+              <b>NOMBRE:&nbsp;</b><xsl:value-of select="root/contrato/nombreCotizacion"/><br/>
+              <b>IDENTIFICACIÓN No:&nbsp;</b><xsl:value-of select="root/contrato/idFiscal"/>
+            </td>
+
+          <!-- Columna derecha -->
+            <td style="font-size:10pt; vertical-align:top; width:50%">
+              <b>COTIZACIÓN No:&nbsp;</b><xsl:value-of select="root/contrato/nombreCotizacion"/><br/>
+              <b>PLAN DE ASISTENCIA COTIZADO:&nbsp;</b><xsl:value-of select="root/contrato/plan"/><br/>
+              <b>ORIGEN:&nbsp;</b>ECUADOR<br/>
+              <b>DESTINO:&nbsp;</b><xsl:value-of select="root/contrato/CMBDESTINOSV"/><br/>
+              <b>INICIO VIGENCIA:&nbsp;</b><xsl:value-of select="root/contrato/date_effet_garantie"/><br/>
+              <b>FIN DE VIGENCIA:&nbsp;</b><xsl:value-of select="root/contrato/fhFinGarantia"/><br/>
+              <b>DURACIÓN DEL PLAN:&nbsp;</b><xsl:value-of select="root/contrato/nombre_mois"/> días
+            </td>
+          </tr>
+        </table>
+      </div>
+
+        <!-- FORMAS DE PAGO -->
+        <div>
+          <b><font>FORMAS DE PAGO DISPONIBLES</font></b>
+        </div>
+        <div>
+        <table width="100%" style="border-top:2px solid #000000; margin-top: 0.5%;">
+          <tr>
+          <!-- Columna izquierda -->
+            <td style="font-size:10pt; vertical-align:top; width:50%;">
+              <p style="margin-top: 3%;"><b>DÉBITO BANCARIO</b><br>
+              A TRAVÉS DE LA PLATAFORMA PAYSAFE
+              </p>
+            </td>
+            
+            <!-- Columna derecha -->
+            <td style="font-size:10pt; vertical-align:top; width:50%">
+              <p style="margin-top: 3%;"><b>TARJETA DE CRÉDITO</b><br>
+                FINANCIAMIENTO A 3 MESES SIN INTERESES<br>
+                EN PAGOS DE $100,<br>
+                PLAZOS DE 6, 9 Y 12 MESES CON INTERESES<br>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div>
+        <b>ASISTENCIAS Y BENEFICIOS – MONTOS MÁXIMOS</b>
+      </div>
+      <div align="center">
+          <table width="100%" style="border-top:2px solid #000000; margin-top: 0.5%;">
+            <tr>
+              <td style="font-size:13pt">
+                El plan de asistencia cotizado incluye los siguientes servicios. La presente descripción constituye únicamente un resumen informativo; 
+                para revisar el alcance del servicio contratado, puede acceder al siguiente enlace 
+                <a href="https://www.mawdy.com.ec/" target="_blank">https://www.mawdy.com.ec
+              </td>
+            </tr>
+          </table>
+      </div>
+
+        <!-- ASISTENCIAS Y BENEFICIOS – MONTOS MÁXIMOS  -->
+        <table width="100%" border="0" cellpadding="2">
+          <tr>
+            <td width="75%" style="justify-content: center; text-align: center;" bgcolor="#FF0000">DETALLE DE SERVICIOS</td>
+            <td width="25%" style="justify-content: center; text-align: center;" bgcolor="#FF0000">SILVER</td>
+          </tr>
+          <tr>
+            <td colspan="2" style="justify-content: center; text-align: center;" bgcolor="#808080">DURANTE EL VIAJE</td>
+          </tr>
+          <tr>
+            <td
+          </tr>
+
+          <!-- VERIFICAR -->
+          <!-- <tr><td bgcolor="#f2f2f2" style="font-size:7pt">Asistencia mundial 24 horas - 365 días</td><td bgcolor="#f2f2f2" style="font-size:7pt">45 Centrales PROPIAS</td><td bgcolor="#f2f2f2" style="font-size:7pt">Gastos hospitalarios/enfermedad</td><td bgcolor="#f2f2f2" style="font-size:7pt">USD 75.000</td></tr>
+          <tr><td bgcolor="#f2f2f2" style="font-size:7pt">Repatriación sanitaria</td><td bgcolor="#f2f2f2" style="font-size:7pt">Hasta $28.930</td><td bgcolor="#f2f2f2" style="font-size:7pt">Atención preexistencias de urgencia</td><td bgcolor="#f2f2f2" style="font-size:7pt">Hasta $5.000</td></tr>
+          <tr><td bgcolor="#f2f2f2" style="font-size:7pt">Medicación ambulatoria</td><td bgcolor="#f2f2f2" style="font-size:7pt">Hasta $800</td><td bgcolor="#f2f2f2" style="font-size:7pt">Odontología de emergencia</td><td bgcolor="#f2f2f2" style="font-size:7pt">Hasta $500</td></tr>
+          <tr><td bgcolor="#f2f2f2" style="font-size:7pt">Hospitalarios en accidente (USA)</td><td bgcolor="#f2f2f2" style="font-size:7pt">Hasta $28.000 (Hasta $5.000 en USA)</td><td bgcolor="#f2f2f2" style="font-size:7pt">Gastos ambulatorios</td><td bgcolor="#f2f2f2" style="font-size:7pt">Hasta $1.000</td></tr> -->
+        </table>
+
+        <!-- LEGALES / PROTECCIÓN DE DATOS  -->
+        <table border="0" cellspacing="1" cellpadding="2" width="100%">
+          <tr>
+            <td width="80%" style="text-align:JUSTIFY; font-size:6pt">
+              <p>El plan de asistencia cotizado incluye los siguientes servicios. La presente descripción constituye únicamente un resumen informativo; para revisar el alcance del servicio contratado, puede acceder al siguiente enlace https://www.mawdy.com.ec/.</p>
+              <p>En caso de existir inconsistencias o falsedad en la documentación presentada para la cotización esta quedará sin validez. (Resto de texto legal de tu PDF).</p>
+              <p><b>PROTECCIÓN DE DATOS PERSONALES:</b> Texto legal según PDF.</p>
+            </td>
+            <td width="20%" align="center" style="text-align:center; font-size:6pt">
+              <b>Para solicitar una asistencia escanea aquí:</b><br/><br/>
+              <img src="./images/logoSociedades/Logo_46_7_17.png" width="75" height="80" alt="qr"/>
+            </td>
+          </tr>
+        </table>
+
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
