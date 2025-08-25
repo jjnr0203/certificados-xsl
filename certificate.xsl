@@ -181,7 +181,7 @@
                     <td width="100%">
                       <p style="font-size: 9pt">
                       El plan de asistencia cotizado incluye los siguientes servicios. La presente descripción constituye únicamente un resumen informativo; 
-                      para revisar el alcance del servicio contratado, puede acceder al siguiente enlace <b>https://www.mawdy.com.ec</b>
+                      para revisar el alcance del servicio contratado, puede acceder al siguiente enlace <a href="https://www.mawdy.com.ec"><b>https://www.mawdy.com.ec</b></a>
                       </p>
                     </td>
                   </tr>
@@ -191,7 +191,7 @@
           </div>
 
           <!-- TABLA DE DETALLES DE SERVICIOS -->
-          <div align="center">
+          <div align="center" style="margin-top:5px">
             <table width="95%" border="0" style="justify-content: center">
             <tr >
               <td width="60%" style="font-size:15pt;justify-content: center; text-align: center;" bgcolor="#FF0000">DETALLE DE SERVICIOS</td>
@@ -205,15 +205,280 @@
               <td width="35%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">USD 75.000</td>
             </tr>
 
-          <tr>
-            <td bgcolor="#f2f2f2" style="font-size:7pt">
-              <p><strong>MONTO GLOBAL MAXIMO</strong> 
-            <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
-            </td>
-            <td bgcolor="#f2f2f2" style="font-size:7pt">
-              <p><strong>Hasta $ 75,000</strong></p>
-            </td>
-          </tr>
+            <tr>
+              <td bgcolor="#FFFFFF" style="font-size:7pt">
+                <p>Asistencia mundial 24 horas - 365 días</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>45 Centrales PROPIAS</p>
+              </td>
+            </tr>
+            <!-- Todo general col -->
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos hospitalarios por accidente</p>
+              </td>
+              
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos hospitalarios por enfermedad incluye (COVID-19)</p>
+              </td> 
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos ambulatorios por accidente</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos ambulatorios por enfermedad</p>
+              </td>
+              <!-- End Todo col -->
+            </tr>
+            <!-- <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos de repatriación sanitaria en caso de accidente o enfermedad</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $28.930</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos hospitalarios y ambulatorios por enfermedad y accidente en USA</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $5.000</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Atencion médica por preexistencias de urgencia</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 800</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Gastos por medicación ambulatoria</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $1.000</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos de odontologia de emergencia por accidente</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $500</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos médicos y hospitalarios por accidente durante las competencias legalmente
+                reconocidas por las federaciones nacionales e internacionales correspondientes y sus
+                respectivas jornadas de entrenamiento. (No deportes de alto riesgo)</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $1.000</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos de repatriación funeraria</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Ilimitada</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Asistencia exequial en Ecuador</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>$2.000</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos de hotel por convalecencia para el titular (max 10 días)</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $600 ($60 x día)</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Viaje de un acompañante</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>boleto aéreo</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Gastos de hotel para el acompañante (max 10 días)</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $600 ($60 x día)</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Cuidado de un menor en caso de emergencia</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>SI</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Interrupcion del viaje por fallecimiento de un familiar, nacimiento de un familiar, por siniestro
+                  grave en el domicilio (incendio o robo)</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Diferencia de tarifa</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Asistencia monetaria por demora o cancelación de vuelos</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $120 (presentar facturas)</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Reembolso de gastos de cancelación de viaje</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $300</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Asistencia monetaria por demora de equipaje a partir de las 48 horas</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $200 (presentar facturas)</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Asistencia monetaria por demora de equipaje a partir de los 8 días</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $500 (presentar facturas)</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Compensación complementaria por pérdida de equipaje complementaria
+                  y declarada por la aerolínea</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p>Hasta $900
+                  ($30/kg máximo 30kg)</p>
+              </td>
+            </tr> -->
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>MONTO GLOBAL MAXIMO</strong> 
+              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt">
+                <p><strong>Hasta $ 75,000</strong></p>
+              </td>
+            </tr>
+            <!-- BENEFICIOS EN EL ECUADOR -->
+            <tr>
+              <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">DURANTE EL VIAJE</td>
+            </tr>
         </table>
           </div>
 
