@@ -1,4 +1,4 @@
-<!-- COTIZACIÓN SERVICIO DE ASISTENCIA EN VIAJES -->
+<!-- CERTIFICADO DE ASISTENCIA EN VIAJES -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="https://www.xyz.com/mynamespace">
   <xsl:decimal-format name="decimal" decimal-separator="." zero-digit="0" NaN="0.00"></xsl:decimal-format>
@@ -37,7 +37,7 @@
               </tr>
 
               <td width="100%" style="text-align:center;">
-                  <strong>COTIZACIÓN SERVICIO DE ASISTENCIA EN VIAJES</strong>
+                  <strong>CERTIFICADO DE ASISTENCIA EN VIAJES</strong>
               </td>
               <tr align="left" CLASS="txtNormalPdf">
                 <td style="font-size:7pt">
@@ -60,12 +60,12 @@
             </table>   
           </div>
 
-          <!-- DETALLES DE COTIZACION -->
+          <!-- DATOS DEL PASAJERO / CERTIFICADO -->
           <div>
             <tr>
               <td width="100%" style="font-size:8pt">
                 <b>
-                  <font color="#000000">DETALLE DE COTIZACIÓN&#160;</font>
+                  <font color="#000000">DATOS DEL PASAJERO / CERTIFICADO&#160;</font>
                 </b>
               </td>
             </tr>
@@ -133,7 +133,7 @@
             </div>
           </div>
 
-          <!-- FORMAS DE PAGO DISPONIBLES -->
+          <!-- DATOS DEL ASESOR Y PAGO -->
           <div style="margin-top:15px;">
             <tr>
               <td width="100%" style="font-size:8pt">
@@ -147,21 +147,27 @@
                 <div>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <p>
-                        <b>DEBITO BANCARIO</b>
-                        <br/>A TRAVES DE LA PLATAFORMA
-                        <br/>PAYSAFE
-                      </p>
-
+                        <br/><b>RAZÓN SOCIAL</b>
                     </td>
+                    <td></td>
+                  </tr>
+                  <tr >
+                    <td width="50%" style="font-size:6pt">  
+                        <b>DIRECCIÓN</b>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr >
                     <td width="50%" style="font-size:6pt">
-                      <p>
-                        <b>TAREJETA DE CREDITO</b>
-                        <br/>FINANCIAMIENTO A 3 MESES SIN INTERESES
-                        <br/>EN PAGOS DESDE $100,
-                        <br/>PLAZOS DE 6, 9 Y 12 MESES CON INTERESES
-                      </p>
+                        <b>TELÉFONO</b>
                     </td>
+                    <td></td>
+                  </tr>
+                  <tr >
+                    <td width="50%" style="font-size:6pt">
+                        <b>CORREO</b>
+                    </td>
+                    <td></td>
                   </tr>
                 </div>
               </table>
@@ -173,7 +179,7 @@
             <tr>
               <td width="100%" style="font-size:8pt">
                 <b>
-                  <font color="#000000">ASISTENCIAS Y BENEFICIOS - MONTOS MAXIMOS&#160;</font>
+                  <font color="#000000">ASISTENCIAS Y BENEFICIOS / MONTOS MAXIMOS&#160;</font>
                 </b>
               </td>
             </tr>
@@ -183,8 +189,9 @@
                   <tr >
                     <td width="100%">
                       <p style="font-size: 9pt">
-                      El plan de asistencia cotizado incluye los siguientes servicios. La presente descripción constituye únicamente un resumen informativo; 
-                      para revisar el alcance del servicio contratado, puede acceder al siguiente enlace <a href="https://www.mawdy.com.ec"><b>https://www.mawdy.com.ec</b></a>
+                        El plan de asistencia contratado incluye los siguientes servicios. La presente descripción constituye únicamente un resumen
+                        informativo; para revisar el alcance del servicio contratado, puede acceder al siguiente enlace 
+                        <a href="https://www.mawdy.com.ec"><b>https://www.mawdy.com.ec</b></a>
                       </p>
                     </td>
                   </tr>
