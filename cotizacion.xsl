@@ -460,12 +460,12 @@
             <tr>
               <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">ANTES DEL VIAJE</td>
             </tr>
-            <!-- DESPUES DEL VIAJE -->
+            
             <tr>
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Asistencia Psicológica Telefónica (temores, fobias, crisis de inseguridad, etc)</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>SI</p>
               </td>
             </tr>
@@ -473,10 +473,32 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Asistencia Médica Nutricional (recomendaciones nutricionales previas al viaje)</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>SI</p>
               </td>
             </tr>
+            <!-- DESPUES DEL VIAJE -->
+            <tr>
+              <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">DESPUÉS DEL VIAJE (Hasta 15 días después del retorno)</td>
+            </tr>
+
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Terapias de recuperación física en Ecuador</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>NO</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Gastos por atención odontológica. Profilaxis / Exámen clínico y diagnóstico</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>100% Una atención para el titular</p>
+              </td>
+            </tr>
+
             <!-- TARJETA DE DESCUENTO -->
             <tr>
               <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">TARJETA DE DESCUENTOS 
@@ -487,7 +509,7 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Médico General</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta el 25%</p>
               </td>
             </tr>
@@ -495,7 +517,7 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Salud Visual</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Consultas Oftalmológicas hasta 20%</p>
               </td>
             </tr>
@@ -503,7 +525,7 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Farmacias</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta el 15%</p>
               </td>
             </tr>
@@ -511,7 +533,7 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Hotel para mascotas</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta el 15%</p>
               </td>
             </tr>
