@@ -467,12 +467,12 @@
             <tr>
               <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">ANTES DEL VIAJE</td>
             </tr>
-            <!-- DESPUES DEL VIAJE -->
+            
             <tr>
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Asistencia Psicológica Telefónica (temores, fobias, crisis de inseguridad, etc)</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>SI</p>
               </td>
             </tr>
@@ -480,10 +480,32 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Asistencia Médica Nutricional (recomendaciones nutricionales previas al viaje)</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>SI</p>
               </td>
             </tr>
+            <!-- DESPUES DEL VIAJE -->
+            <tr>
+              <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">DESPUÉS DEL VIAJE (Hasta 15 días después del retorno)</td>
+            </tr>
+
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Terapias de recuperación física en Ecuador</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>NO</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Gastos por atención odontológica. Profilaxis / Exámen clínico y diagnóstico</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>100% Una atención para el titular</p>
+              </td>
+            </tr>
+
             <!-- TARJETA DE DESCUENTO -->
             <tr>
               <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">TARJETA DE DESCUENTOS 
@@ -494,7 +516,7 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Médico General</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta el 25%</p>
               </td>
             </tr>
@@ -502,7 +524,7 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Salud Visual</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Consultas Oftalmológicas hasta 20%</p>
               </td>
             </tr>
@@ -510,7 +532,7 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Farmacias</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta el 15%</p>
               </td>
             </tr>
@@ -518,7 +540,7 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Hotel para mascotas</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta el 15%</p>
               </td>
             </tr>
@@ -564,6 +586,54 @@
             </div>
           </div>
 
+          <!-- ATENCIÓN AL CLIENTE -->
+          <div style="margin-top:15px;">
+            <tr>
+              <td width="100%" style="font-size:8pt">
+                <b>
+                  <font color="#000000">ATENCIÓN AL CLIENTE&#160;</font>
+                </b>
+              </td>
+            </tr>
+            <div align="center">
+              <table  width="100%" style="border-top: 2px solid #000000; margin-top:5px;">
+                <div>
+                  <tr >
+                    <td width="90%">
+                      <p style="font-size: 9pt; text-align: justify">
+                        Ante cualquier emergencia comuníquese las 24 horas, los 365 días del año e informe:
+                        <br/>1. Nombre completo
+                        <br/>2. Número de cédula de identidad
+                        <br/>3. Motivo de la llamada
+                        <br/>4. Lugar donde se encuentre y un teléfono de contacto.
+                      </p>
+
+                      <p style="font-size: 9pt; text-align: justify">
+                        Estimado cliente, cuando reciba atención médica en España e Italia, por favor ingresar los siguientes datos en toda
+                        <br/>documentación facilitada por la casa de salud.
+                        <br/>España: Carretera de Pozuelo nº 52, 28222 Majadahonda- Madrid, Correo electrónico: masist.cosiam1@mapfre.com
+                        <br/>Italia: Strada Trossi, 66 13871 Verrone (BI) Italia, Correo electrónico: internazionale.assistenza@mapfre.com
+                      </p>
+
+                      <p style="font-size: 9pt; text-align: justify">
+                        TELÉFONO DE ASISTENCIA: 593-2-39 88 311/312
+                        <br/>WHATSAPP DE ASISTENCIA: 56-9-68600869
+                        <br/>CORREO DE ASISTENCIA: miasistenciaenviaje@mawdy.com
+                      </p>
+
+                      <p style="font-size: 9pt; text-align: justify">
+                        Los cambios de fecha y anulaciones se deben solicitar mínimo 24 horas antes de iniciar el viaje. Una vez iniciado el viaje no se
+                        <br/>permite ningún cambio. Solo se permiten anulaciones por negación de visa (con carta de negación), por enfermedad (con
+                        <br/>certificado médico), o por incumplimiento del literal b contemplado en el apartado de declaraciones.
+                        <br/>MAWDY se reserva el derecho de cobrar una penalidad por gastos administrativos por pasajero.
+                      </p>
+                    </td>
+                  </tr>
+                </div>
+              </table>
+            </div>
+          </div>
+
           <!-- PROTECCIÓN DE DATOS PERSONALES -->
           <div style="margin-top:15px;">
             <tr>
@@ -579,10 +649,29 @@
                   <tr >
                     <td width="90%">
                       <p style="font-size: 9pt; text-align: justify">
-                        “De conformidad con lo establecido en la Ley Orgánica de Protección de Datos Personales y mediante la suscripción del
-                        presente documento el FIRMANTE acepta y declara haber leído el Aviso de Privacidad y Protección de Datos Personales de
-                        clientes disponible en el sitio web: https://www.mawdy.com.ec/politica-de-privacidad/; razón por la cual, autoriza a MAWDY S.A.,
-                        sus compañías relacionadas o aquellos con quienes mantiene una relación contractual al tratamiento de sus datos personales.”
+                        El Titular queda informado y consiente expresamente mediante la firma o recepción del presente documento, el tratamiento de
+                        los datos suministrados voluntariamente, así como el de todos aquellos datos que pudiera facilitar a MAWDY S.A , directamente o
+                        a través de su mediador o agencias de viajes en convenio, y los que se obtengan mediante grabación de conversaciones
+                        telefónicas o como consecuencia de su navegación por las páginas web de Internet u otro medio, con motivo del desarrollo del
+                        contrato o de la consulta, solicitud o contratación de cualquier servicio o producto, incluso una vez finalizada la relación
+                        precontractual o contractual incluidas, en su caso, las comunicaciones o las transferencias internacionales de los datos que
+                        pudieran realizarse, todo ello para las finalidades detalladas en la Información Adicional de Protección de Datos.
+                      </p>
+
+                      <p style="font-size: 9pt; text-align: justify">
+                        El Titular consiente a su vez, la grabación de las conversaciones telefónicas que se mantengan con MAWDY S.A por razón de la
+                        prestación del servicio.
+                      </p>
+
+                      <p style="font-size: 9pt; text-align: justify">
+                        Si los datos facilitados son de personas diferentes del interesado, incluidos los datos de salud, éste garantiza contar con su
+                        consentimiento antes de facilitar los mismos, informándoles previamente de los términos de protección de datos establecidos
+                        en el presente documento.
+                      </p>
+
+                      <p style="font-size: 9pt; text-align: justify">
+                        El titular garantiza la exactitud y veracidad de los datos facilitados, adquiriendo el compromiso de comunicar a MAWDY S.A
+                        cualquier cambio en los mismos.
                       </p>
                     </td>
                   </tr>
