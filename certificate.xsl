@@ -74,10 +74,10 @@
                 <div>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <b>NOMBRE: </b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <br/><b>NOMBRE: </b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>COTIZACIÓN No:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <br/><b>COTIZACIÓN No:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
                     </td>
                   </tr>
                   <tr >
@@ -147,17 +147,20 @@
                 <div>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <p><b>DEBITO BANCARIO</b></p>
-                      <p></p>
-                      <p>A TRAVES DE LA PLATAFORMA</p>
-                      <p>PAYSAFE</p>
+                      <p>
+                        <b>DEBITO BANCARIO</b>
+                        <br/>A TRAVES DE LA PLATAFORMA
+                        <br/>PAYSAFE
+                      </p>
 
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <p><b>TAREJETA DE CREDITO</b></p>
-                      <p>FINANCIAMIENTO A 3 MESES SIN INTERESES</p>
-                      <p>EN PAGOS DESDE $100,</p>
-                      <p>PLAZOS DE 6, 9 Y 12 MESES CON INTERESES</p>
+                      <p>
+                        <b>TAREJETA DE CREDITO</b>
+                        <br/>FINANCIAMIENTO A 3 MESES SIN INTERESES
+                        <br/>EN PAGOS DESDE $100,
+                        <br/>PLAZOS DE 6, 9 Y 12 MESES CON INTERESES
+                      </p>
                     </td>
                   </tr>
                 </div>
@@ -206,323 +209,378 @@
             </tr>
 
             <tr>
-              <td bgcolor="#FFFFFF" style="font-size:7pt">
+              <td bgcolor="#FFFFFF" style="font-size:7pt; ">
                 <p>Asistencia mundial 24 horas - 365 días</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center ">
                 <p>45 Centrales PROPIAS</p>
               </td>
             </tr>
             <!-- Todo general col -->
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos hospitalarios por accidente</p>
               </td>
               
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos hospitalarios por enfermedad incluye (COVID-19)</p>
               </td> 
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos ambulatorios por accidente</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos ambulatorios por enfermedad</p>
               </td>
               <!-- End Todo col -->
             </tr>
-            <!-- <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos de repatriación sanitaria en caso de accidente o enfermedad</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $28.930</p>
               </td>
             </tr>
-            <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
-              </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
-              </td>
-            </tr>
-            <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+             <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos hospitalarios y ambulatorios por enfermedad y accidente en USA</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p>Hasta $5.000</p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p><strong>Hasta $5,000</strong></p>
               </td>
             </tr>
-            <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Atencion médica por preexistencias de urgencia</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 800</strong></p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p><strong>Hasta $800</strong></p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Gastos por medicación ambulatoria</p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Atencion médica por preexistencias de urgencia</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $1.000</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos de odontologia de emergencia por accidente</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $500</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos médicos y hospitalarios por accidente durante las competencias legalmente
-                reconocidas por las federaciones nacionales e internacionales correspondientes y sus
-                respectivas jornadas de entrenamiento. (No deportes de alto riesgo)</p>
+                  reconocidas por las federaciones nacionales e internacionales correspondientes y sus
+                  respectivas jornadas de entrenamiento. (No deportes de alto riesgo)</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $1.000</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos de repatriación funeraria</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Ilimitada</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Asistencia exequial en Ecuador</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>$2.000</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos de hotel por convalecencia para el titular (max 10 días)</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $600 ($60 x día)</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Viaje de un acompañante</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>boleto aéreo</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos de hotel para el acompañante (max 10 días)</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $600 ($60 x día)</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Cuidado de un menor en caso de emergencia</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>SI</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Interrupcion del viaje por fallecimiento de un familiar, nacimiento de un familiar, por siniestro
-                  grave en el domicilio (incendio o robo)</p>
+                    grave en el domicilio (incendio o robo)</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Diferencia de tarifa</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Asistencia monetaria por demora o cancelación de vuelos</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $120 (presentar facturas)</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Reembolso de gastos de cancelación de viaje</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $300</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Asistencia monetaria por demora de equipaje a partir de las 48 horas</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $200 (presentar facturas)</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Asistencia monetaria por demora de equipaje a partir de los 8 días</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $500 (presentar facturas)</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Compensación complementaria por pérdida de equipaje complementaria
-                  y declarada por la aerolínea</p>
+                    y declarada por la aerolínea</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
                 <p>Hasta $900
-                  ($30/kg máximo 30kg)</p>
-              </td>
-            </tr> -->
-            <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
-              </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
+                <br/>($30/kg máximo 30kg)</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Asistencia legal en caso de accidentes (honorarios de abogado)</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
-              </td>
-            </tr>
-            <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
-              </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>Hasta $1.000</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Adelanto de fianzas</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
-              </td>
-            </tr>
-            <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
-              </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>Hasta $1.500</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Transferencia de fondos</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
-              </td>
-            </tr>
-            <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
-              </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>Hasta $2.000</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Transmisión de mensajes urgentes</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>SI</p>
               </td>
             </tr>
             <tr>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>MONTO GLOBAL MAXIMO</strong> 
-              <br />Hasta 75 años cobertura del 100%, desde 75 años 1 día hasta 80 años cobertura al 50%</p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Compensación en caso de robo y/o extravío de documentos</p>
               </td>
-              <td bgcolor="#f2f2f2" style="font-size:7pt">
-                <p><strong>Hasta $ 75,000</strong></p>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>Hasta $50</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Deducible</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>No</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Límite de edad</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>MAXIMO 75 AÑOS</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Validez territorial</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center">
+                <p>TODO EL MUNDO</p>
               </td>
             </tr>
             <!-- BENEFICIOS EN EL ECUADOR -->
             <tr>
-              <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">DURANTE EL VIAJE</td>
+              <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">BENEFICIOS EN EL ECUADOR</td>
             </tr>
-        </table>
-          </div>
-
-          <table border="0" cellspacing="1" cellpadding="2" width="100%">
+            <!-- ANTES DEL VIAJE -->
             <tr>
-              <td width="80%" style="text-align:JUSTIFY; font-size:6 pt">               
-                <!--Este cuadro de garantías representa un resumen de coberturas, requisitos y condiciones que se encuentran disponibles en el sitio <a href="https://wcolaboradoresti.mapfre.com/,DanaInfo=www.segurviaje.com.ec">www.segurviaje.com.ec</a>-->
-       				  <br />
-                <p>
-                    Ante cualquier emergencia comuníquese las 24  horas, los 365 días del año e informe: 
-                    1. Nombre completo; 
-                    2. Nº de cédula de identidad; 
-                    3. Motivo de la llamada; 
-                    4. Lugar y teléfono de donde se encuentre. 
-                    <b>TELÉFONO DE ASISTENCIA: 593-2-39 88 311/312</b>
-                    <br />
-                    <br />
-                    Los cambios de fecha y anulaciones se deben solicitar mínimo 24 horas antes de iniciar la vigencia del voucher. 
-                    Una vez comenzada la vigencia no se permite ningún cambio inclusive con documentos justificados. 
-                    Solo se permiten anulaciones por negación de visa (con carta de negación) o por enfermedad (con certificado médico).  
-				    MAWDY TRAVEL se reserva el derecho de cobrar una penalidad por gastos administrativos por pasajero.
-                    <br />
-                    <br />
-                    <strong>Estimado cliente, cuando reciba atención médica en los Estados Unidos, por favor ingresar los siguientes datos en toda documentación 
-                        facilitada por la casa de salud.
-                    <br />
-                    <b>Dirección: </b>8150 N. Central Expressway, Suite 1700, Dallas, TX 75206 (NSHI: 8150 N. Central Expressway, Suite 1700, Dallas, Texas 75206  USA)
-                    <br />
-                    <b>Correo electrónico: </b>mapfreassist@epicamericas.com</strong>
-<br />
-<br /><b>De conformidad con lo establecido en la Ley Orgánica de Protección de Datos Personales y mediante la suscripción del presente documento el FIRMANTE acepta y declara haber leído el Aviso de Privacidad y Protección de Datos Personales de clientes disponible en el sitio web: https://www.mawdy.com.ec/politica-de-privacidad/; razón por la cual, autoriza a MAWDY S.A., sus compañías relacionadas o aquellos con quienes mantiene una relación contractual al tratamiento de sus datos personales.</b>
-                </p>
+              <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">ANTES DEL VIAJE</td>
+            </tr>
+            <!-- DESPUES DEL VIAJE -->
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Asistencia Psicológica Telefónica (temores, fobias, crisis de inseguridad, etc)</p>
               </td>
-              <td width="20%" align="center" style="text-align:center; font-size:6 pt">
-                <strong>Para solicitar una asistencia escanea aquí:</strong>
-                <br />
-                <br />
-                <img src="../images/logoSociedades/Logo_46_7_17.png" alt="logo_mapfre" width="75" height="80"></img>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>SI</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Asistencia Médica Nutricional (recomendaciones nutricionales previas al viaje)</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>SI</p>
+              </td>
+            </tr>
+            <!-- TARJETA DE DESCUENTO -->
+            <tr>
+              <td colspan="2" width="100%" style="font-size:12pt;justify-content: center; text-align: center;" bgcolor="#808080">TARJETA DE DESCUENTOS 
+              (A partir de la compra de MAWDY TRAVEL hasta 15 días después del retorno)
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Médico General</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Hasta el 25%</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Salud Visual</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Consultas Oftalmológicas hasta 20%</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Farmacias</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Hasta el 15%</p>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Hotel para mascotas</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; ">
+                <p>Hasta el 15%</p>
               </td>
             </tr>
           </table>
+          </div>
+                
+          <div style="margin-top:8px">
+            <table>
+              <tr>
+                <td>En caso de existir inconsistencias o falsedad en la documentación presentada para la cotización 
+                esta quedará sin validez. Si la edad del contratante está entre 75 años 1 día hasta 79 años 11 meses 
+                y 30 días el beneficio será del 50%. Si supera la edad de 80 años 1 día no podrá tener acceso a los 
+                beneficios de asistencia en viajes.</td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- DECLARACIONES -->
+          <div style="margin-top:15px;">
+            <tr>
+              <td width="100%" style="font-size:8pt">
+                <b>
+                  <font color="#000000">DECLARACIONES&#160;</font>
+                </b>
+              </td>
+            </tr>
             <div align="center">
-            
-            <div align="center" style=" FONT-SIZE: 8px;" CLASS="txtCondicionesPdf">
+              <table  width="100%" style="border-top: 2px solid #000000; margin-top:5px;">
+                <div>
+                  <tr >
+                    <td width="90%">
+                      <p style="font-size: 9pt; text-align: justify">
+                        Los servicios estarán sujetos a:
+                        <br/>a) Los términos y condiciones del servicio “Asistencia en viaje” que se encuentran detallados en la página web
+                        https://www.mawdy.com.ec/ se recomienda leer detenidamente para que conozca detalles de las asistencias contratadas.
+                        <br/>b) El pago por los servicios contratados debe ser realizado hasta 24 horas antes del inicio del viaje, caso contrario el certificado
+                        no tendrá validez y MAWDY queda relevada de prestar cualquier tipo de servicio.
+                      </p>
+                    </td>
+                  </tr>
+                </div>
+              </table>
+            </div>
+          </div>
+
+          <!-- PROTECCIÓN DE DATOS PERSONALES -->
+          <div style="margin-top:15px;">
+            <tr>
+              <td width="100%" style="font-size:8pt">
+                <b>
+                  <font color="#000000">PROTECCIÓN DE DATOS PERSONALES&#160;</font>
+                </b>
+              </td>
+            </tr>
+            <div align="center">
+              <table  width="100%" style="border-top: 2px solid #000000; margin-top:5px;">
+                <div>
+                  <tr >
+                    <td width="90%">
+                      <p style="font-size: 9pt; text-align: justify">
+                        “De conformidad con lo establecido en la Ley Orgánica de Protección de Datos Personales y mediante la suscripción del
+                        presente documento el FIRMANTE acepta y declara haber leído el Aviso de Privacidad y Protección de Datos Personales de
+                        clientes disponible en el sitio web: https://www.mawdy.com.ec/politica-de-privacidad/; razón por la cual, autoriza a MAWDY S.A.,
+                        sus compañías relacionadas o aquellos con quienes mantiene una relación contractual al tratamiento de sus datos personales.”
+                      </p>
+                    </td>
+                  </tr>
+                </div>
+              </table>
             </div>
           </div>
         </xsl:for-each>
