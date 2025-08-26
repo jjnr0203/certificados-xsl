@@ -74,7 +74,7 @@
                 <div>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <br/><b>NOMBRE: </b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <br/><b>NOMBRE: </b><xsl:value-of select="../nameClienteOrigen"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
                     </td>
                     <td width="50%" style="font-size:6pt">
                       <br/><b>COTIZACIÓN No:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
