@@ -77,15 +77,24 @@
                       <br/><b>NOMBRE: </b><xsl:value-of select="../nameClienteOrigen"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <br/><b>COTIZACIÓN No:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <br/>
+                        <b>
+                          <font>COTIZACIÓN No:</font>
+                        </b>
+
+                      <xsl:if test="count(../insuredData)>1">
+                        <xsl:value-of select="position()"/>&#160;-&#160;
+                      </xsl:if>
+                                   
+                      <xsl:value-of select="../numero_contrat"></xsl:value-of>
                     </td>
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <b>IDENTIFICACION No:</b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b>IDENTIFICACION No:</b><xsl:value-of select="txtApeTXtxtIdFiscal"></xsl:value-of>
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>PLAN DE ASISTENCIA COTIZADO:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>PLAN DE ASISTENCIA COTIZADO:</b> SILVER
                     </td>
                   </tr>
                   <tr >
@@ -93,12 +102,12 @@
                       <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>ORIGEN:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>ORIGEN:</b> ECUADOR
                     </td>
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
                       <b>DESTINO:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
@@ -106,7 +115,7 @@
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
                       <b>INICIO VIGENCIA:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
@@ -114,7 +123,7 @@
                   </tr>
                   <tr>
                     <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
                       <b>FIN DE VIGENCIA:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
@@ -122,7 +131,7 @@
                   </tr>
                   <tr>
                     <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
                       <b>DURACION DEL PLAN:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
