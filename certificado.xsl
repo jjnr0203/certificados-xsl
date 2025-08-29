@@ -15,49 +15,29 @@
           </xsl:if>
           <div align="center">
             <table border="0" cellspacing="0" cellpadding="2" width="100%">
-              <tr align="center">
+              <tr align="left">
+
+                <td style="font-size:7pt">
+                  <p>
+                    Av. 12 de Octubre N24-562 y Luis Cordero, WTC Torre
+                    <br/>A Oficina 1110
+                    <br/>Quito, Ecuador T. +593 299 0790
+                    <br/>www.mawdy.com.ec
+                  </p>
+                </td>
+
                 <td width="37%" style="text-align:left;">
                   <img src="../images/logoSociedades/Logo_46_7_16.png" width="230" height="70"></img>
                 </td>
-                <td width="63%" colspan="2">
-                  <xsl:if test="(imagenCliente!='')">
-                    <img>
-                      <xsl:attribute name="src">
-                        <xsl:value-of select="../imagenCliente"></xsl:value-of>
-                      </xsl:attribute>
-                    </img>
-                  </xsl:if>
-                </td>
-              </tr>
-
-              <tr align="left" CLASS="txtNormalPdf">
-                <td style="text-align:right;">
-                  <img src="../images/AvionTraveller2.jpg" width="371" height="72"></img>
-                </td>
-              </tr>
-
-              <td width="100%" style="text-align:center;">
-                  <strong>CERTIFICADO DE ASISTENCIA EN VIAJES</strong>
-              </td>
-              <tr align="left" CLASS="txtNormalPdf">
-                <td style="font-size:7pt">
-                  <!--Nombre del dealer -->
-                  <xsl:value-of select="../nameClienteOrigen"></xsl:value-of>
-                </td>
-              </tr>
-              <tr align="left" CLASS="txtNormalPdf">
-                <td style="font-size:7pt">
-                  <!--Direccion dealer--> <!--Telefono del dealer -->
-                  <xsl:value-of select="../dirClienteOrigen"></xsl:value-of>, &#160;<xsl:value-of select="../telefonoClienteOrigen"></xsl:value-of>
-                </td>
-              </tr>
-              <tr align="left" CLASS="txtNormalPdf">
-                <td style="font-size:7pt">
-                  <!--EmailDealer-->
-                  <xsl:value-of select="../emailClienteOrigen"></xsl:value-of>&#160;&#160;<xsl:value-of select="../dsVendedor"></xsl:value-of>
-                </td>
               </tr>
             </table>   
+          </div>
+
+          <!-- TITULO -->
+          <div style="margin-top:10px; justify-content: center; text-align:center">
+            <td width="100%" style="text-align:center; font-size:10pt">
+                <strong>CERTIFICADO DE ASISTENCIA EN <br/>VIAJES</strong>
+            </td>
           </div>
 
           <!-- DATOS DEL PASAJERO / CERTIFICADO -->
@@ -74,58 +54,67 @@
                 <div>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <br/><b>NOMBRE: </b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <br/><b>NOMBRE: </b><xsl:value-of select="../nameClienteOrigen"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <br/><b>COTIZACIÓN No:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
-                    </td>
-                  </tr>
-                  <tr >
-                    <td width="50%" style="font-size:6pt">
-                      <b>IDENTIFICACION No:</b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
-                    </td>
-                    <td width="50%" style="font-size:6pt">
-                      <b>PLAN DE ASISTENCIA COTIZADO:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
-                    </td>
-                  </tr>
-                  <tr >
-                    <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
-                    </td>
-                    <td width="50%" style="font-size:6pt">
-                      <b>ORIGEN:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <br/>
+                        <b>
+                          <font>COTIZACIÓN No:</font>
+                        </b>
+
+                      <xsl:if test="count(../insuredData)>1">
+                        <xsl:value-of select="position()"/>&#160;-&#160;
+                      </xsl:if>
+                                   
+                      <xsl:value-of select="../numero_contrat"></xsl:value-of>
                     </td>
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b>IDENTIFICACION No:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>DESTINO:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>PLAN DE ASISTENCIA COTIZADO:</b> SILVER
                     </td>
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>INICIO VIGENCIA:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>ORIGEN:</b> ECUADOR
+                    </td>
+                  </tr>
+                  <tr >
+                    <td width="50%" style="font-size:6pt">
+                      <b></b>
+                    </td>
+                    <td width="50%" style="font-size:6pt">
+                      <b>DESTINO:</b><xsl:value-of select="../CMBDESTINOSV"></xsl:value-of>
+                    </td>
+                  </tr>
+                  <tr >
+                    <td width="50%" style="font-size:6pt">
+                      <b></b>
+                    </td>
+                    <td width="50%" style="font-size:6pt">
+                      <b>INICIO VIGENCIA:</b><xsl:value-of select="../date_effet_garantie"></xsl:value-of>
                     </td>
                   </tr>
                   <tr>
                     <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>FIN DE VIGENCIA:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>FIN DE VIGENCIA:</b><xsl:value-of select="../fhFinGarantia"></xsl:value-of>
                     </td>
                   </tr>
                   <tr>
                     <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>DURACION DEL PLAN:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>DURACION DEL PLAN:</b><xsl:value-of select="../nombre_mois"></xsl:value-of>
                     </td>
                   </tr>
                 </div>
@@ -138,7 +127,7 @@
             <tr>
               <td width="100%" style="font-size:8pt">
                 <b>
-                  <font color="#000000">FORMAS DE PAGO DISPONIBLES&#160;</font>
+                  <font color="#000000">DATOS DEL ASESOR Y PAGO</font>
                 </b>
               </td>
             </tr>
@@ -147,25 +136,25 @@
                 <div>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                        <br/><b>RAZÓN SOCIAL</b>
+                        <br/><b>RAZÓN SOCIAL</b><xsl:value-of select="../nameClienteOrigen"></xsl:value-of>
                     </td>
                     <td></td>
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">  
-                        <b>DIRECCIÓN</b>
+                        <b>DIRECCIÓN</b><xsl:value-of select="../dirClienteOrigen"></xsl:value-of>
                     </td>
                     <td></td>
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                        <b>TELÉFONO</b>
+                        <b>TELÉFONO</b><xsl:value-of select="../telefonoClienteOrigen"></xsl:value-of>
                     </td>
                     <td></td>
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                        <b>CORREO</b>
+                        <b>CORREO</b><xsl:value-of select="../emailClienteOrigen"></xsl:value-of>&#160;&#160;<xsl:value-of select="../dsVendedor"></xsl:value-of>
                     </td>
                     <td></td>
                   </tr>
@@ -223,10 +212,12 @@
                 <p>45 Centrales PROPIAS</p>
               </td>
             </tr>
-            <!-- Todo general col -->
             <tr>
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos hospitalarios por accidente</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center" rowspan="4">
+                <p>Hasta $26,000. Hasta $5,000 en Estados Unidos</p>
               </td>
               
             </tr>
@@ -244,8 +235,8 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos ambulatorios por enfermedad</p>
               </td>
-              <!-- End Todo col -->
             </tr>
+
             <tr>
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos de repatriación sanitaria en caso de accidente o enfermedad</p>
@@ -678,6 +669,87 @@
                 </div>
               </table>
             </div>
+          </div>
+
+          <!-- TABLA DE INFORMACION BASICA -->
+          <div style="margin-top:15px">
+            <table width="85%" border="1" cellspacing="0" cellpadding="8" style="margin: auto; font-family: , sans-serif; border-collapse: collapse;">
+                <tr>
+                  <td colspan="2" style="font-size:8pt;">
+                    Información básica sobre protección de datos
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size:8pt;">
+                    Responsable
+                  </td>
+                  <td style="font-size:8pt;">
+                    MAWDY S.A
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size:8pt;">
+                    Finalidades
+                  </td>
+                  <td style="font-size:8pt;">
+                    Gestión del contrato o prestación de servicio, elaboración de perfiles para el adecuado desarrollo del servicio, gestión integral y centralizada de su relación con MAWDY S.A y envío de información y publicidad sobre ofertas de productos y servicios del Grupo MAPFRE.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size:8pt;">
+                    Legitimación
+                  </td>
+                  <td style="font-size:8pt;">
+                    Ejecución del contrato.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size:8pt;">
+                    Destinatarios
+                  </td>
+                  <td style="font-size:8pt;">
+                    Podrán comunicarse datos a terceros y/o realizarse transferencias de datos a terceros países en los términos señalados en la Información Adicional.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size:8pt;">
+                    Derechos
+                  </td>
+                  <td style="font-size:8pt;">
+                    Puede ejercer sus derechos de acceso, rectificación, supresión, limitación, oposición y portabilidad, detallados en la Información Adicional de Protección de Datos.
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size:8pt;">
+                    Información adicional
+                  </td>
+                  <td style="font-size:8pt;">
+                    Puede consultar información adicional de protección de datos en 
+                    <a href="/www.mawdy.com.ec/politica-de-privacidad/https://www.mawdy.com.ec/politica-de-privacidad/">
+                    https://www.mawdy.com.ec/politica-de-privacidad/</a>
+                  </td>
+                </tr>
+              </table>
+          </div>
+            
+          <!-- NOTA A PIE DE FIRMA -->
+            <div style="margin-top:20px">
+              <tr>
+                <td width="100%" style="font-size:8pt">
+                  <b>
+                    <font color="#000000">NOTA A PIE DE FIRMA</font>
+                  </b>
+                </td>
+              </tr>
+              <table  width="100%" style="border-top: 2px solid #000000; margin-top:5px;">
+                <tr>
+                  <td>De conformidad con lo establecido en la Ley Orgánica de Protección de Datos Personales y mediante la suscripción del presente
+                      documento el FIRMANTE acepta y declara haber leído el Aviso de Privacidad y Protección de Datos Personales de clientes
+                      disponible en el sitio web: <a href="https://www.mawdy.com.ec/politica-de-privacidad/"></a>https://www.mawdy.com.ec/politica-de-privacidad/; razón por la cual, autoriza a MAWDY S.A., sus
+                      compañías relacionadas o aquellos con quienes mantiene una relación contractual al tratamiento de sus datos personales.
+                      </td>
+                </tr>
+            </table>
           </div>
         </xsl:for-each>
       </body>

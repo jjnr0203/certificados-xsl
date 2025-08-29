@@ -15,53 +15,33 @@
           </xsl:if>
           <div align="center">
             <table border="0" cellspacing="0" cellpadding="2" width="100%">
-              <tr align="center">
+              <tr align="left">
+            
+                <td style="font-size:7pt">
+                  <p>
+                    Av. 12 de Octubre N24-562 y Luis Cordero, WTC Torre
+                    <br/>A Oficina 1110
+                    <br/>Quito, Ecuador T. +593 299 0790
+                    <br/>www.mawdy.com.ec
+                  </p>
+                </td>
+
                 <td width="37%" style="text-align:left;">
                   <img src="../images/logoSociedades/Logo_46_7_16.png" width="230" height="70"></img>
-                </td>
-                <td width="63%" colspan="2">
-                  <xsl:if test="(imagenCliente!='')">
-                    <img>
-                      <xsl:attribute name="src">
-                        <xsl:value-of select="../imagenCliente"></xsl:value-of>
-                      </xsl:attribute>
-                    </img>
-                  </xsl:if>
-                </td>
-              </tr>
-
-              <tr align="left" CLASS="txtNormalPdf">
-                <td style="text-align:right;">
-                  <img src="../images/AvionTraveller2.jpg" width="371" height="72"></img>
-                </td>
-              </tr>
-
-              <td width="100%" style="text-align:center;">
-                  <strong>COTIZACIÓN SERVICIO DE ASISTENCIA EN VIAJES</strong>
-              </td>
-              <tr align="left" CLASS="txtNormalPdf">
-                <td style="font-size:7pt">
-                  <!--Nombre del dealer -->
-                  <xsl:value-of select="../nameClienteOrigen"></xsl:value-of>
-                </td>
-              </tr>
-              <tr align="left" CLASS="txtNormalPdf">
-                <td style="font-size:7pt">
-                  <!--Direccion dealer--> <!--Telefono del dealer -->
-                  <xsl:value-of select="../dirClienteOrigen"></xsl:value-of>, &#160;<xsl:value-of select="../telefonoClienteOrigen"></xsl:value-of>
-                </td>
-              </tr>
-              <tr align="left" CLASS="txtNormalPdf">
-                <td style="font-size:7pt">
-                  <!--EmailDealer-->
-                  <xsl:value-of select="../emailClienteOrigen"></xsl:value-of>&#160;&#160;<xsl:value-of select="../dsVendedor"></xsl:value-of>
                 </td>
               </tr>
             </table>   
           </div>
 
+          <!-- TITULO -->
+          <div style="margin-top:10px; justify-content: center; text-align:center">
+            <td width="100%" style="text-align:center; font-size:10pt">
+                <strong>COTIZACIÓN SERVICIO DE ASISTENCIA <br/>EN VIAJES</strong>
+            </td>
+          </div>
+
           <!-- DETALLES DE COTIZACION -->
-          <div>
+          <div style="margin-top:10px">
             <tr>
               <td width="100%" style="font-size:8pt">
                 <b>
@@ -91,7 +71,7 @@
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <b>IDENTIFICACION No:</b><xsl:value-of select="txtApeTXtxtIdFiscal"></xsl:value-of>
+                      <b>IDENTIFICACION No:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
                     </td>
                     <td width="50%" style="font-size:6pt">
                       <b>PLAN DE ASISTENCIA COTIZADO:</b> SILVER
@@ -99,7 +79,7 @@
                   </tr>
                   <tr >
                     <td width="50%" style="font-size:6pt">
-                      <b></b><xsl:value-of select="txtApeAsegurado"></xsl:value-of>&#160;<xsl:value-of select="txtNmAsegurado"></xsl:value-of>&#160;
+                      <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
                       <b>ORIGEN:</b> ECUADOR
@@ -110,7 +90,7 @@
                       <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>DESTINO:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>DESTINO:</b><xsl:value-of select="../CMBDESTINOSV"></xsl:value-of>
                     </td>
                   </tr>
                   <tr >
@@ -118,7 +98,7 @@
                       <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>INICIO VIGENCIA:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>INICIO VIGENCIA:</b><xsl:value-of select="../date_effet_garantie"></xsl:value-of>
                     </td>
                   </tr>
                   <tr>
@@ -126,7 +106,7 @@
                       <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>FIN DE VIGENCIA:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>FIN DE VIGENCIA:</b><xsl:value-of select="../fhFinGarantia"></xsl:value-of>
                     </td>
                   </tr>
                   <tr>
@@ -134,7 +114,7 @@
                       <b></b>
                     </td>
                     <td width="50%" style="font-size:6pt">
-                      <b>DURACION DEL PLAN:</b><xsl:value-of select="txtIdFiscal"></xsl:value-of>
+                      <b>DURACION DEL PLAN:</b><xsl:value-of select="../nombre_mois"></xsl:value-of>
                     </td>
                   </tr>
                 </div>
@@ -225,10 +205,12 @@
                 <p>45 Centrales PROPIAS</p>
               </td>
             </tr>
-            <!-- Todo general col -->
             <tr>
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos hospitalarios por accidente</p>
+              </td>
+              <td bgcolor="#f2f2f2" style="font-size:7pt; justify-content: center; text-align: center" rowspan="4">
+                <p>Hasta $26,000. Hasta $5,000 en Estados Unidos</p>
               </td>
               
             </tr>
@@ -246,7 +228,6 @@
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
                 <p>Gastos ambulatorios por enfermedad</p>
               </td>
-              <!-- End Todo col -->
             </tr>
             <tr>
               <td bgcolor="#f2f2f2" style="font-size:7pt; ">
